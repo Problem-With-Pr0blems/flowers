@@ -28,15 +28,16 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background:#1aaa15;
+  background:#030803;
 }
 .aruuke{
   height: 100vh;
-  background: url(https://kalix.club/uploads/posts/2022-12/1671492694_kalix-club-p-zvezdnoe-nebo-oboi-vkontakte-2.jpg);
-  display: flex;
+  background: black;
+  box-shadow: 30px 0 40px 5px rgba(255, 255, 255, 0.7) inset; 
   background-size: cover;
   background-position: center;
-  
+  display: flex;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
