@@ -36,14 +36,13 @@ body {
 .aruuke {
   height: 100vh;
   background: black;
-  box-shadow: 30px 0 40px 5px rgba(255, 255, 255, 0.7) inset;
   background-size: cover;
   background-position: center;
   display: flex;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Trebuch", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .aruuke_text {
@@ -52,9 +51,31 @@ body {
   color: #fff; /* Цвет текста */
   text-align: center;
   text-transform: uppercase;
-  animation: glow 1.5s ease-in-out infinite; /* Здесь настраивается анимация свечения текста */
+  display: inline-block;
+  animation: fadeInAnimation 10s ease 1 forwards, gradientAnimation 6s linear infinite;
+  opacity: 0;
+  transition: 4s;
+  background: linear-gradient(45deg, rgb(236, 222, 222), rgb(128, 0, 126), rgb(230, 56, 233), rgb(222, 88, 237));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200% 0%;
+  }
+}
 @keyframes glow {
   0% {
     text-shadow: 0 0 30px rgb(242, 13, 196);
