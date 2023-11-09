@@ -62,10 +62,14 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
+    transform: scale(0.8);
     opacity: 0;
+    filter: brightness(1);
   }
   100% {
+    transform: scale(1.6);
     opacity: 1;
+    filter: brightness(2);
   }
 }
 @keyframes gradientAnimation {
