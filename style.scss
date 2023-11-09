@@ -50,7 +50,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
-    animation: fadeInAnimation 10s ease 1 forwards , gradientAnimation 6s linear infinite;
+    animation: fadeInAnimation 40s ease 1 forwards , gradientAnimation 6s linear infinite;
     opacity: 0;
     transition: 4s;
     background: linear-gradient(45deg, rgb(236, 222, 222), rgb(128, 0, 126), rgb(230, 56, 233), rgb(222, 88, 237));
@@ -1367,4 +1367,13 @@ body {
 
 .not-loaded * {
   animation-play-state: paused !important;
+}
+
+.part2{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(116, 109, 109, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
