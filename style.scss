@@ -17,7 +17,7 @@ h6{
 
 body {
   display: flex;
-  border: 0 0 0 0 ;
+
   align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
@@ -36,7 +36,7 @@ body {
   filter: blur(0.1vmin);
   background:#030803;
 }
-.aruuke{
+.girl{
   height: 100vh;
   background: black;
   
@@ -48,10 +48,10 @@ body {
   align-items: center;
   font-family:'Trebuch', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.aruuke_text{
+.girl_text{
   font-size: 100px;
     font-weight: bold;
-    color: #fff; /* Цвет текста */
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     display: inline-block;

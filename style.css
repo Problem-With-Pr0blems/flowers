@@ -39,20 +39,20 @@ body {
   background: #030803;
 }
 
-.aruuke {
+.girl {
   height: 100vh;
   background: black;
   background-size: cover;
   background-position: center;
   display: flex;
-  border-radius: 50%;
+
   justify-content: center;
   align-items: center;
   font-family: "Trebuch", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.aruuke_text {
-  font-size: 100px;
+.girl_text {
+  font-size: 400%;
   font-weight: bold;
   color: #fff; /* Цвет текста */
   text-align: center;
@@ -1018,6 +1018,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
+
+.part2 input{
+  width: 200px;
+  height: 30px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
